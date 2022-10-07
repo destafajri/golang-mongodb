@@ -1,6 +1,6 @@
 package models
 
-import(
+import (
 	"gopkg.in/mgo.v2/bson"
 )
 
