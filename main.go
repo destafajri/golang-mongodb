@@ -16,6 +16,7 @@ func main() {
 	r.POST("/user", usercontrol.CreateUser)
 	r.DELETE("/user/:id", usercontrol.DeleteUser)
 
+	http.ListenAndServe("localhost:8000", r)
 }
 
 func getSession() *mgo.Session{
