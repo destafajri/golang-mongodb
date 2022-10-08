@@ -1,2 +1,2 @@
 # golang-mongodb
-Learn Golang mongodb
+Learn Golang internal mongodb
